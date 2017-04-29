@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "jargon_mongodb"
+  },
+  "AccessToken": {
+    "dataSource": "jargon_mongodb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "jargon_mongodb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "jargon_mongodb",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "jargon_mongodb",
+    "public": false
+  },
+  "Message": {
+    "dataSource": null
+  },
+  "word": {
+    "dataSource": "jargon_mongodb",
+    "public": true
+  }
+}

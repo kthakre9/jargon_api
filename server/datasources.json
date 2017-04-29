@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "jargon_mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "jargon_mongodb",
+    "password": "",
+    "name": "jargon_mongodb",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

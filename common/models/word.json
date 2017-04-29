@@ -1,0 +1,23 @@
+{
+  "name": "word",
+  "plural": "words",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "word_name": {
+      "type": "string",
+      "required": true
+    },
+    "word_meaning": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
